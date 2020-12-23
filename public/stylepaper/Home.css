@@ -1,9 +1,9 @@
 .bg-light{
-    background-color:white!important;
+    background-color:rgb(0, 0, 0)!important;
 }
 
 body {
-    background-color: peachpuff;
+    background-color: rgb(255, 255, 255);
 }
 
 .btn-primary {
