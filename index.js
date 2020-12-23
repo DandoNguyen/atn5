@@ -36,7 +36,7 @@ app.listen(PORT);
 //connect mongoosejs
 var mongoose = require('mongoose');
 //'mongodb+srv://admin:admin@cluster0.jc001.mongodb.net/NodeJs?retryWrites=true&w=majority'
-mongoose.connect('mongodb+srv://ngocthanhda:123@cluster0.h7ewn.mongodb.net/webNN?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}, function(err){
+mongoose.connect('mongodb+srv://ngocthanhda:123@cluster0.h7ewn.mongodb.net/Dung?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}, function(err){
     if (err){
         console.log("connect fail" + err)
     } else {
